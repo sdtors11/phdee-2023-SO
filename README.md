@@ -1,2 +1,0 @@
-# phdee-2023-SO
- ECON7103HWs
