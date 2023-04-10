@@ -1,0 +1,108 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage[letterpaper, portrait, margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=blue,
+    citecolor=black,
+}
+\usepackage{natbib}
+\usepackage{titlesec}
+
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+
+\title{ECON7103HW2}
+\author{Sedat Ors}
+\date{22 January 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Python}
+\vspace{0.5cm}
+\begin{enumerate}
+\item
+\noindent See Table 1 for regression results. There is significant differrence in electricity usage between two groups.
+\vspace{0.5cm}
+\begin{table}[]
+    \centering
+    \input{HW1py}
+    \caption{Regression results with heteroskedasticity-robust standard errors.}
+    \label{tab:question3}
+\end{table}
+
+\item 
+\noindent See Figure 1 for distribution of electricity usage for treated and control groups
+\vspace{0.5cm}
+\begin{figure}[]
+    \centering
+     \includegraphics{histogram.pdf}
+    \caption{Electricity usage}
+    \label{tab:question3}
+\end{figure}
+
+\item 
+\noindent See Table 2 and Table 3 for regression results
+ \begin{table}[]
+    \centering
+    \input{HW3apy)}
+    \caption{}
+    \label{tab:question3}
+\end{table}
+
+\vspace{0.5cm}
+\begin{table}[]
+    \centering
+    \input{HW3cPy)}
+    \caption{}
+    \label{tab:question3}
+\end{table}
+\end{enumerate}
+
+\section{Stata}
+\begin{enumerate}
+    \item 
+    
+\noindent See table 4
+\vspace{0.5cm}
+\begin{table}[h]
+    \centering
+     \includegraphics{HW2Q2.png}
+    \caption{\(t\)-test for Treatment, Control and Difference}
+    \label{tab:btable_stata}
+\end{table}
+
+\item
+\noindent See table 5 
+\vspace{0.5cm}
+\begin{table}[]
+    \centering
+    \input{hw2Q3}
+    \caption{Regression results with heteroskedasticity-robust standard errors.}
+    \label{tab:question3}
+\end{table}
+
+\item
+\noindent See figure 2 
+\vspace{0.5cm}
+\begin{figure}[h]
+    \centering
+    \includegraphics{HW2Q2.pdf}
+    \caption{Scatterplot of electricity usage and home size}
+    \label{fig:scatter}
+\end{figure}
+\end{enumerate}
+\
+\end{document}
