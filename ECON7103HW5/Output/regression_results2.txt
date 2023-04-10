@@ -1,0 +1,23 @@
+                    Results: Ordinary least squares
+========================================================================
+Model:                 OLS               Adj. R-squared:      0.190     
+Dependent Variable:    price             AIC:                 19156.7823
+Date:                  2023-04-08 01:28  BIC:                 19171.5055
+No. Observations:      1000              Log-Likelihood:      -9575.4   
+Df Model:              2                 F-statistic:         118.1     
+Df Residuals:          997               Prob (F-statistic):  9.38e-47  
+R-squared:             0.192             Scale:               1.2187e+07
+------------------------------------------------------------------------
+         Coef.       Std.Err.     t    P>|t|      [0.025       0.975]   
+------------------------------------------------------------------------
+const -264024.2000 746919.2687 -0.3535 0.7238 -1729738.4156 1201690.0156
+Car    -90156.3873 226687.3471 -0.3977 0.6909  -534995.4496  354682.6749
+MPG     10165.7377  26559.8255  0.3827 0.7020   -41953.8359   62285.3112
+------------------------------------------------------------------------
+Omnibus:                1.382          Durbin-Watson:             1.990 
+Prob(Omnibus):          0.501          Jarque-Bera (JB):          1.250 
+Skew:                   0.054          Prob(JB):                  0.535 
+Kurtosis:               3.135          Condition No.:             231265
+========================================================================
+* The condition number is large (2e+05). This might indicate
+strong multicollinearity or other numerical problems.

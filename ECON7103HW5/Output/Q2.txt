@@ -1,0 +1,18 @@
+	(1)
+VARIABLES	Weak Instrumental Test
+	
+mpg	150.0**
+	(65.85)
+car	-4,888***
+	(749.2)
+height	-10.78
+	(29.03)
+length	-1.016
+	(6.067)
+Constant	18,566***
+	(3,457)
+	
+Observations	1,000
+R-squared	0.105
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

@@ -1,0 +1,18 @@
+	(1)
+VARIABLES	2SLS Results: Liml Estimator
+	
+mpg	150.0**
+	(65.68)
+car	-4,888***
+	(747.3)
+height	-10.78
+	(28.96)
+length	-1.016
+	(6.052)
+Constant	18,566***
+	(3,448)
+	
+Observations	1,000
+R-squared	0.105
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
