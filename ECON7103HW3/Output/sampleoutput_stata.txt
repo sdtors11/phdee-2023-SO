@@ -1,0 +1,18 @@
+		(1)
+VARIABLES	LABELS	OLS
+		
+lnelectricity	lnelectricity	.
+		(. - .)
+lnsqft	lnsqft	0.89***
+		(0.88 - 0.91)
+lntemp	lntemp	0.28***
+		(0.27 - 0.29)
+retrofit	retrofit	-0.10
+		(-0.34 - 0.14)
+Constant	Constant	-0.77
+		(-1.85 - 0.31)
+		
+Observations		1,000
+R-squared		0.94
+ci in parentheses		
+*** p<0.01, ** p<0.05, * p<0.1		

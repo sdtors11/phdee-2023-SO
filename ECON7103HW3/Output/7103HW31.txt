@@ -1,0 +1,16 @@
+	(1)
+VARIABLES	lnelectricity
+	
+lnsqft	0.894***
+	(0.00777)
+lntemp	0.281**
+	(0.123)
+retrofit	-0.101***
+	(0.00638)
+Constant	-0.769
+	(0.544)
+	
+Observations	1,000
+R-squared	0.937
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

@@ -1,0 +1,17 @@
+	(1)	(2)	(3)
+VARIABLES	POmeans	OME0	OME1
+			
+sqft		0.639***	0.592***
+		(0.00973)	(0.00922)
+temp		1.018	6.394**
+		(2.777)	(2.746)
+0bn.retrofit	1,189***		
+	(14.96)		
+1.retrofit	1,079***		
+	(13.78)		
+Constant		56.74	-404.8*
+		(223.3)	(218.2)
+			
+Observations	1,000	1,000	1,000
+Standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			
