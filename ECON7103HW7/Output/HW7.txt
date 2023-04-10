@@ -1,0 +1,20 @@
+	(1)
+VARIABLES	lnmw
+	
+zone1	2.266***
+	(0.00146)
+treatment	-0.0650***
+	(0.00225)
+o.year2020	-
+	
+logmw_hat1	4.36e-07***
+	(1.85e-08)
+o.treatment	-
+	
+Constant	4.746***
+	(0.00272)
+	
+Observations	102,800
+R-squared	0.959
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

@@ -1,0 +1,28 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx1872\clbrdrt\brdrs\cellx3600
+\ql \cell\qc (1)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx1872\cellx3600
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx1872\clbrdrb\brdrs\cellx3600
+\ql VARIABLES\cell\qc lnmw\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx1872\cellx3600
+\ql \cell\qc \cell\row
+\ql zone1\cell\qc 2.266***\cell\row
+\ql \cell\qc (0.00146)\cell\row
+\ql treatment\cell\qc -0.0650***\cell\row
+\ql \cell\qc (0.00225)\cell\row
+\ql o.year2020\cell\qc -\cell\row
+\ql \cell\qc \cell\row
+\ql logmw_hat1\cell\qc 4.36e-07***\cell\row
+\ql \cell\qc (1.85e-08)\cell\row
+\ql o.treatment\cell\qc -\cell\row
+\ql \cell\qc \cell\row
+\ql Constant\cell\qc 4.746***\cell\row
+\ql \cell\qc (0.00272)\cell\row
+\ql \cell\qc \cell\row
+\ql Observations\cell\qc 102,800\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx1872\clbrdrb\brdrs\cellx3600
+\ql R-squared\cell\qc 0.959\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}
