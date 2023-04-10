@@ -1,0 +1,76 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage[letterpaper, portrait, margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=blue,
+    citecolor=black,
+}
+\usepackage{natbib}
+
+\usepackage{titlesec}
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+
+
+\title{ECON7103HW4}
+\author{Sedat Ors}
+\date{13 February 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Python}
+\vspace{0.5cm}
+\begin{enumerate}
+\item 
+\noindent According to the Figure 1, there are parallel trends before treatment. 
+
+\begin{figure}[]
+    \centering
+     \includegraphics{hw4Q1.pdf}
+    \caption{}
+    \label{tab:question3}
+\end{figure}
+
+
+\item The estimation is -9,591 which means that treatment leads decline in treatment group. 
+
+\item
+\noindent See Table 1 for results.
+\vspace{0.5cm}
+\begin{table}[]
+    \centering
+    \input{HW4Q3}
+    \caption{Regression results with heteroskedasticity-robust standard errors.}
+    \label{tab:question3}
+\end{table}
+
+
+\end{enumerate}
+
+\section{Stata}
+\vspace{0.5cm}
+\begin{enumerate}
+\item
+\noindent See Table 2 for results.
+\begin{table}[]
+    \centering
+    \input{table3}
+    \caption{}
+\end{table}
+
+\end{enumerate}
+
+\end{document}

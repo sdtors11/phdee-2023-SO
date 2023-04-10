@@ -1,0 +1,20 @@
+		(1)	(2)
+VARIABLES	LABELS	Model (a)	Model (b)
+			
+treated	treated	-189,849.10	
+		(220,054.88)	
+shrimp	shrimp	1.60**	
+		(0.21)	
+salmon	salmon	-0.87	
+		(1.26)	
+shrimp_2	shrimp_2		1.60**
+			(0.21)
+salmon_2	salmon_2		-0.87
+			(1.23)
+Constant	Constant	239,486.02	1,137.82
+		(272,685.97)	(1,209.07)
+			
+Observations		1,200	1,200
+R-squared		1.00	0.34
+Robust standard errors in parentheses			
+** p<0.01, * p<0.05			
